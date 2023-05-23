@@ -16,6 +16,9 @@ jobs:
       
       - name: Setup Python
         uses: actions/setup-python@v4.6.0
-      
+      - name: Install packages
+        run: |
+          pip install wget
+          pip install aligo
       - name: Run main.py
         run: python main.py
