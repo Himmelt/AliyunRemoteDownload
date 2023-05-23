@@ -1,8 +1,3 @@
-import os
-
-os.system(f'pip install wget')
-os.system(f'pip install aligo')
-
 import wget
 from aligo import Aligo
 
