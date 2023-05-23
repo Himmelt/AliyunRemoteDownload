@@ -1,7 +1,7 @@
-from pip._internal import main
+import os
 
-main.main(['install', 'wget'])
-main.main(['install', 'aligo'])
+os.system(f'pip install wget')
+os.system(f'pip install aligo')
 
 import wget
 from aligo import Aligo
