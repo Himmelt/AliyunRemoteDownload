@@ -20,3 +20,5 @@ jobs:
       - name: Install Aligo
         run: pip install aligo
       
+      - name: Run Wget
+        run: wget -O XXMixReal-v3.0.safetensors https://civitai.com/api/download/models/77903
