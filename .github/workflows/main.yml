@@ -17,8 +17,5 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4.6.0
       
-      - name: Install Aligo
-        run: pip install aligo
-      
-      - name: Run Wget
-        run: wget -O XXMixReal-v3.0.safetensors https://civitai.com/api/download/models/77903
+      - name: Run main.py
+        run: python main.py
